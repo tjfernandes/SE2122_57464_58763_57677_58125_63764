@@ -77,7 +77,7 @@ public class ArgumentProcessor {
     private boolean noGUINeeded;
 
     public ArgumentProcessor(String[] args, Mode startupMode, PreferencesService preferencesService) throws org.apache.commons.cli.ParseException {
-        cli = new JabRefCLI(args);
+            cli = new JabRefCLI(args);
         this.startupMode = startupMode;
         this.preferencesService = preferencesService;
         parserResults = processArguments();

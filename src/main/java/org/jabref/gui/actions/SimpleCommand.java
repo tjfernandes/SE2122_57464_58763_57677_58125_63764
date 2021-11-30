@@ -8,6 +8,9 @@ import org.jabref.gui.util.BindingsHelper;
 
 import de.saxsys.mvvmfx.utils.commands.CommandBase;
 
+
+
+
 /**
  * A simple command that does not track progress of the action.
  */

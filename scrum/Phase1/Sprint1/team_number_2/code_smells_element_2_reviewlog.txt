@@ -1,0 +1,5 @@
+Code smells review
+
+Data class:
+I agree with both the code smell suggested and the solution. Since the class is so small (22 lines of code) which only include 2 getters I agree with the suggestion of just deleting this data class and putting its code where it’s used.
+By: Artur Lourenço 63764

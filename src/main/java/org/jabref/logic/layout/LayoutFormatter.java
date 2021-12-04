@@ -17,7 +17,7 @@ public interface LayoutFormatter {
      * <p>
      * Formatters should be robust in the sense that they always return some relevant string.
      * <p>
-     * If the formatter can detect an invalid input it should return the original string otherwise it may simply return
+     * If the formatter can detect an invalid input it shou ld return the original string otherwise it may simply return
      * a wrong output.
      *
      * @param fieldText The text to layout.

@@ -1,0 +1,6 @@
+Code smells review
+
+Long Parameter List:
+Concordo tanto com o code smell sugerido pelo colega como com a solução dada e penso que está tudo em conformidade com o que nos foi apresentado em aula.
+
+Realizado por: Diogo Rosa 57464

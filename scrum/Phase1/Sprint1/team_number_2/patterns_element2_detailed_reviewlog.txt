@@ -1,0 +1,7 @@
+Design Patterns review
+
+Composite:
+I agree with the choice of this design pattern seeing as it demonstrates the hierarchical structure present in the composite design pattern, containing the composite,
+the components, and the leaf. 
+
+By: Artur Lourenço 63764

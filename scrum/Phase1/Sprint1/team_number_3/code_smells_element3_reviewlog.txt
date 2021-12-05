@@ -1,1 +1,7 @@
 Reviews:
+
+Long method:
+I agree with both my teammate identification of the smell and its refactoring solution. The method is in fact a long method and the best
+solution that I found is to divide it into smaller and simpler methods.
+
+By: Tiago Fernandes 57677

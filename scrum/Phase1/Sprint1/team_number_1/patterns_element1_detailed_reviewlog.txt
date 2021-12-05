@@ -14,3 +14,12 @@ This steps are methods in the abstract class (abstract or not) and their impleme
 By: Tiago Fernandes 57677
 05/12/2021
 14:00
+
+Prototype:
+After my teammate changed the template method pattern to the prototype I can agree with this identification.
+There is a prototype interface (Clonable) and a ConcretePrototype class (IntegrityMessage). This class has method clone() which is called by
+other classes.
+
+By: Tiago Fernandes 57677
+05/12/2021
+21:30

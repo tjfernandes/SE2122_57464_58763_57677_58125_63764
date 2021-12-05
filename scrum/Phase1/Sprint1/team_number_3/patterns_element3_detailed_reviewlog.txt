@@ -1,1 +1,7 @@
-Reviews:
+Design Patterns review
+
+Observer:
+I agree with the choice of this design pattern since as justified by my colleague, it receives notifications of
+changes on the observed class.
+
+By: Artur Lourenço 63764

@@ -10,3 +10,9 @@ I agree with the data class code smell in class VersionPreferences, the fact tha
 should be in another class. 
 
 By: Artur Lourenço 63764
+
+Feature Envy:
+I agree with this smell identified by my teammate. In fact, the class is more focusing in manipulating data from another class than its own data.
+This smell is explained well according to what was teached in classes.
+
+By: Tiago Fernandes 57677

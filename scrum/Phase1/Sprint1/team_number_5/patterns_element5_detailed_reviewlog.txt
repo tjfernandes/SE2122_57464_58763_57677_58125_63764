@@ -17,3 +17,5 @@ By: Tiago Fernandes 57677
 
 Factory Pattern:
 Concordo com o factory encontrado pelo meu colega, pois cria a tabela de icones mediante o seu tipo. Assim posso concluir que é um pattern porque é somente utilizado para a criação de novos objetos. 
+
+Realizado por: Tiago Duarte 58125

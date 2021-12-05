@@ -11,3 +11,8 @@ Duplicate code:
 Concordo com a solução dada pelo colega, no entanto e embora também considere que existe código duplicado, penso que o code smell se aproxima mais ao Speculative Generality.
 
 Realizado por: Diogo Rosa 57464
+
+Long Method:
+Concordo com a análise, pois o método realmente é muito longo pelo que poderia criar-se novos métodos para facilitar a leitura do mesmo.
+
+Realizado por: Tiago Duarte 58125

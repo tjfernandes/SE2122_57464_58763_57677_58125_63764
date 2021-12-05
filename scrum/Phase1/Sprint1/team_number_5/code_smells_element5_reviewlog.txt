@@ -4,3 +4,9 @@ Long Parameter List:
 Concordo tanto com o code smell sugerido pelo colega como com a solução dada e penso que está tudo em conformidade com o que nos foi apresentado em aula.
 
 Realizado por: Diogo Rosa 57464
+
+
+Message chain:
+I agree with both my colleague smell identification and its refactoring proposal. It's done accordingly with what was learned in theoretical classes.
+
+By: Tiago Fernandes 57677

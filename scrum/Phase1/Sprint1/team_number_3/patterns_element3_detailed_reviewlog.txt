@@ -1,7 +1,12 @@
 Design Patterns review
 
 Observer:
-I agree with the choice of this design pattern since as justified by my colleague, it receives notifications of
-changes on the observed class.
+I agree with the choice of this design pattern since as justified by my colleague, it receives notifications of changes on the observed class.
 
 By: Artur Lourenço 63764
+
+
+Factory Pattern:
+Concordo com a escolha do meu colega e parece estar tudo em conformidade com a definição e estrutura do Factory Pattern.
+
+Realizado por: Diogo Rosa

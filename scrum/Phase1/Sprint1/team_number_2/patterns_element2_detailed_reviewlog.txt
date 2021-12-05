@@ -5,3 +5,9 @@ I agree with the choice of this design pattern seeing as it demonstrates the hie
 the components, and the leaf. 
 
 By: Artur Lourenço 63764
+
+
+Template Pattern:
+Concordo com o pattern encontrado, visto que o código na classe bibDatabaseWriter funciona como esqueleto e é extendido pela classe BibtexDatabaseWriter, que apenas implementa parte dos métodos da sua superclasse.
+
+Realizado por: Diogo Rosa 57464

@@ -1,7 +1,6 @@
 Design Patterns review
 
 Singleton:
-I agree with this design pattern seeing as on the class ExternalFileTypes we only want one object of the class (identified on the getInstance method), which makes this 
-design pattern an ideal solution here.
+I agree with this design pattern seeing as on the class ExternalFileTypes we only want one object of the class (identified on the getInstance method), which makes this design pattern an ideal solution here.
 
 By: Artur Lourenço 63764

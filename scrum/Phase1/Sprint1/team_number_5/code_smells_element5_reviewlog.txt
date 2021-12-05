@@ -7,6 +7,6 @@ Realizado por: Diogo Rosa 57464
 
 
 Message chain:
-I agree with both my colleague smell identification and its refactoring proposal. It's done accordingly with what was learned in theoretical classes.
+Concordo com a identificação do meu colega, porque de facto há a chamada consecutiva de vários métodos.
 
-By: Tiago Fernandes 57677
+Realizado por: Tiago Duarte 58125

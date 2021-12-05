@@ -5,3 +5,12 @@ Concordo com a escolha do meu colega, pois é fácil de verificar que existe uma
 
 
 Realizado por: Diogo Rosa 57464
+
+
+Composite:
+I agree with the identification of the pattern by my colleague. It identifies the component and the composite classes correctly.
+However, the leaf class is not identified.
+
+By: Tiago Fernandes 57677
+05/12/2021
+14:24

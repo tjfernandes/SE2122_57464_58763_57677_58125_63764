@@ -8,3 +8,8 @@ This method allows only one instance to be created, so this is a singleton.
 By: Tiago Fernandes 57677
 06/12/2001
 10:15
+
+Command Pattern:
+A análise do meu colega é, a meu ver correta, conseguindo identificar na JabRefPreferences a criação dos comandos e a classe PushToApplicationPreferences como o tratamento e execução do comandos.
+
+Realizado por: Tiago Duarte 58125

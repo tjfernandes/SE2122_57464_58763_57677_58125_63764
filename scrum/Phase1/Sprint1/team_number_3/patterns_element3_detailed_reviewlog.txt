@@ -18,6 +18,6 @@ By: Dinis Silvestre - 58763
 
 
 Factory Pattern:
-Concordo com a escolha do meu colega e parece estar tudo em conformidade com a definição e estrutura do Factory Pattern.
+Concordo com a escolha do meu colega e parece existir a necessidade de existir um factory pattern, apesar de não ter certeza quanto ao produto que é utilizado. 
 
 Realizado por: Diogo Rosa

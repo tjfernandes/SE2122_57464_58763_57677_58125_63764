@@ -16,6 +16,6 @@ By: Dinis Silvestre 58763
 
 
 Template Pattern:
-Concordo com o pattern encontrado, visto que o código na classe bibDatabaseWriter funciona como esqueleto e é extendido pela classe BibtexDatabaseWriter, que apenas implementa parte dos métodos da sua superclasse.
+Concordo com o pattern encontrado, visto que o código na classe bibDatabaseWriter funciona como esqueleto e é extendido pela classe BibtexDatabaseWriter, que apenas implementa parte dos métodos da sua superclasse. Outra confirmação deste pattern é a existência de um template method.
 
 Realizado por: Diogo Rosa 57464

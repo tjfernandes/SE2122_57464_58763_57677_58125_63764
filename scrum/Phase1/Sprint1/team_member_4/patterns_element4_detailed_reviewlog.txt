@@ -13,3 +13,8 @@ Command Pattern:
 A análise do meu colega é, a meu ver correta, conseguindo identificar na JabRefPreferences a criação dos comandos e a classe PushToApplicationPreferences como o tratamento e execução do comandos.
 
 Realizado por: Tiago Duarte 58125
+
+Observer Pattern:
+Concordo com a análise pois é criada uma lista de observados que funcionarão como informação ao observador caso façam algum movimento.
+
+Realizado por: Tiago Duarte 58125

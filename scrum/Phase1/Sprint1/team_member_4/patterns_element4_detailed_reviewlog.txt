@@ -1,0 +1,10 @@
+Design Patterns review
+
+Singleton:
+My teammate correctly identified the singleton class.
+This class has a method (getInstance()) which return an singleton instance of the class itself.
+This method allows only one instance to be created, so this is a singleton.
+
+By: Tiago Fernandes 57677
+06/12/2001
+10:15

@@ -7,7 +7,9 @@ By: Artur Lourenço 63764
 
 
 Factory Pattern:
-I agree with my teammate design pattern identification. The ActionFactory is indeed a Factory Pattern which provides an interface (Action) for creating objects in a superclass, but the problem is that can allow subclasses to alter the type of objects that will be created. As a solution, the Factory Method pattern suggests that we replace direct object construction calls (using the new operator) with calls to a special factory method.
+I agree with my teammate design pattern identification. The ActionFactory is indeed a Factory Pattern which provides an interface (Action) for creating objects 
+in a superclass, but the problem is that can allow subclasses to alter the type of objects that will be created. As a solution, the Factory Method pattern suggests 
+that we replace direct object construction calls (using the new operator) with calls to a special factory method.
 
 By: Dinis Silvestre 58763
 

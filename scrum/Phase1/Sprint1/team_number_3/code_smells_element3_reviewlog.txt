@@ -14,7 +14,6 @@ which means the class isn’t too useful. As this class doesn´t have a single m
 By: Dinis Silvestre - 58763
 
 
-
 Feature Envy:
 I agree with my teammate code smell identification and the refactoring solution. This class has indeed the code smell called Feature Envy, because all its methods
 accesses the data of the class BidEntryType more than its own data. As a payoff of moving the methods to the BidEntryTipe class, the result could be a better code

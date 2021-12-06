@@ -16,3 +16,4 @@ Switch Statement:
 
 I agree with btoh the identification of my colleague and its refactoring proposal. We are using switch statements with the same objective.
 So we are violating the OO programming.
+By: Tiago Fernandes 57677

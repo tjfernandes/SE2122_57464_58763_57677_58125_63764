@@ -1,0 +1,4 @@
+Merged doc review:
+
+The merged doc is correctly done. It has all the code smells, patterns and code metrics identified by all member and their names respectively.
+Nothing to suggest or add to the merged doc.

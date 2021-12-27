@@ -1,9 +1,23 @@
 package org.jabref.gui.desktop;
 
+import java.io.File;
+import java.io.IOException;
+import java.net.URI;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.List;
+import java.util.Locale;
+import java.util.Optional;
+import java.util.regex.Pattern;
+
 import org.jabref.gui.DialogService;
 import org.jabref.gui.Globals;
 import org.jabref.gui.JabRefGUI;
-import org.jabref.gui.desktop.os.*;
+import org.jabref.gui.desktop.os.DefaultDesktop;
+import org.jabref.gui.desktop.os.Linux;
+import org.jabref.gui.desktop.os.NativeDesktop;
+import org.jabref.gui.desktop.os.OSX;
+import org.jabref.gui.desktop.os.Windows;
 import org.jabref.gui.externalfiletype.ExternalFileType;
 import org.jabref.gui.externalfiletype.ExternalFileTypes;
 import org.jabref.logic.importer.util.IdentifierParser;
@@ -16,18 +30,9 @@ import org.jabref.model.entry.identifier.ArXivIdentifier;
 import org.jabref.model.entry.identifier.DOI;
 import org.jabref.model.util.FileHelper;
 import org.jabref.preferences.PreferencesService;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import java.io.File;
-import java.io.IOException;
-import java.net.URI;
-import java.nio.file.Files;
-import java.nio.file.Path;
-import java.util.List;
-import java.util.Locale;
-import java.util.Optional;
-import java.util.regex.Pattern;
 
 /**
  * TODO: Replace by http://docs.oracle.com/javase/7/docs/api/java/awt/Desktop.html

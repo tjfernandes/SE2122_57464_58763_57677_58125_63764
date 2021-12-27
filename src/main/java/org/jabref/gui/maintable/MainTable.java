@@ -35,6 +35,7 @@ import org.jabref.gui.externalfiles.ImportHandler;
 import org.jabref.gui.externalfiletype.ExternalFileTypes;
 import org.jabref.gui.keyboard.KeyBinding;
 import org.jabref.gui.keyboard.KeyBindingRepository;
+import org.jabref.gui.maintable.columns.LibraryColumn;
 import org.jabref.gui.maintable.columns.MainTableColumn;
 import org.jabref.gui.util.ControlHelper;
 import org.jabref.gui.util.CustomLocalDragboard;
@@ -47,6 +48,7 @@ import org.jabref.model.database.BibDatabaseContext;
 import org.jabref.model.database.BibDatabaseMode;
 import org.jabref.model.database.event.EntriesAddedEvent;
 import org.jabref.model.entry.BibEntry;
+import org.jabref.preferences.FilePreferences;
 import org.jabref.preferences.PreferencesService;
 
 import com.google.common.eventbus.Subscribe;
@@ -67,6 +69,8 @@ public class MainTable extends TableView<BibEntryTableViewModel> {
 
     private long lastKeyPressTime;
     private String columnSearchTerm;
+
+    private final FilePreferences filePreferences;
 
     public MainTable(MainTableDataModel model,
                      LibraryTab libraryTab,
@@ -101,10 +105,13 @@ public class MainTable extends TableView<BibEntryTableViewModel> {
                 new MainTableColumnFactory(
                         database,
                         preferencesService,
+                        preferencesService.getColumnPreferences(),
                         externalFileTypes,
                         libraryTab.getUndoManager(),
                         dialogService,
                         stateManager).createColumns());
+
+        this.getColumns().removeIf(col -> col instanceof LibraryColumn);
 
         new ViewModelTableRowFactory<BibEntryTableViewModel>()
                 .withOnMouseClickedEvent((entry, event) -> {
@@ -173,6 +180,8 @@ public class MainTable extends TableView<BibEntryTableViewModel> {
             }
             this.jumpToSearchKey(getSortOrder().get(0), key);
         });
+
+        filePreferences = preferencesService.getFilePreferences();
 
         database.getDatabase().registerListener(this);
     }
@@ -379,11 +388,11 @@ public class MainTable extends TableView<BibEntryTableViewModel> {
                         }
                         case MOVE -> {
                             LOGGER.debug("Mode MOVE"); // alt on win
-                            importHandler.getLinker().moveFilesToFileDirAndAddToEntry(entry, files);
+                            importHandler.getLinker().moveFilesToFileDirAndAddToEntry(entry, files, libraryTab.getIndexingTaskManager());
                         }
                         case COPY -> {
                             LOGGER.debug("Mode Copy"); // ctrl on win
-                            importHandler.getLinker().copyFilesToFileDirAndAddToEntry(entry, files);
+                            importHandler.getLinker().copyFilesToFileDirAndAddToEntry(entry, files, libraryTab.getIndexingTaskManager());
                         }
                     }
                 }

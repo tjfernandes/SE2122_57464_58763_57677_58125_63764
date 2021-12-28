@@ -1,11 +1,11 @@
 package org.jabref.gui.actions;
 
-import java.util.Optional;
-
 import org.jabref.gui.icon.IconTheme;
 import org.jabref.gui.icon.JabRefIcon;
 import org.jabref.gui.keyboard.KeyBinding;
 import org.jabref.logic.l10n.Localization;
+
+import java.util.Optional;
 
 public enum StandardActions implements Action {
 
@@ -170,6 +170,7 @@ public enum StandardActions implements Action {
     ERROR_CONSOLE(Localization.lang("View event log"), Localization.lang("Display all error messages")),
     SEARCH_FOR_UPDATES(Localization.lang("Check for updates")),
     ABOUT(Localization.lang("About JabRef"), Localization.lang("About JabRef")),
+    SEARCH_LIBRARIES(Localization.lang("Search on all libraries"), IconTheme.JabRefIcons.FILE_SEARCH),
 
     EDIT_LIST(Localization.lang("Edit"), IconTheme.JabRefIcons.EDIT),
     VIEW_LIST(Localization.lang("View"), IconTheme.JabRefIcons.FILE),
